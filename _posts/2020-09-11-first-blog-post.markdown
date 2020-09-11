@@ -2,6 +2,7 @@
 layout: post
 title:  "First blog post"
 date:   2020-09-11 17:33:00 +0200
+github_comments_issueid: "2"
 categories: blog
 ---
 There is a first time for everything. For me that's writing a blog post right now.
