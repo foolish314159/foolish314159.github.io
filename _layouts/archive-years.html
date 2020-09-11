@@ -14,15 +14,16 @@ title: Archive
 {% for post in site.posts %}
 {% assign postyear = post.date | date: "%Y" %}
 {% if postyear == page.year %}
+	<p class="post-meta">
 	{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-		<h2 class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-			{{ page.date | date: date_format }}
-		</h2> 
-		<p> 		
-			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-		</p>
+		<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+			{{ post.date | date: date_format }}
+	      	</time>
+	</p>
+	<p> 		
+		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+	</p>
 {% endif %}    
-
 {% endfor %}
 
 </div>
