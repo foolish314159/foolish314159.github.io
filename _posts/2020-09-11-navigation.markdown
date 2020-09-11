@@ -3,6 +3,8 @@ layout: post
 title:  "Navigation"
 date:   2020-09-11 21:51:00 +0200
 github_comments_issueid: "3"
+categories: Blogging
+tags: Jekyll
 ---
 
 A third blog post just to check if navigation works properly? Absolutely!
