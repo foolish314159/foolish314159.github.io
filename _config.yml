@@ -45,22 +45,12 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-archives
 
-jekyll-archives:
-  enabled: all
-  layouts:
-    year: year-archive
-    month: month-archive
-    day: day-archive
-    tag: tag-cat-archive
-    category: tag-cat-archive
-  permalinks:
-    year: 'archives/:year/'
-    month: 'archives/:year/:month/'
-    day: 'archives/:year/:month/:day/'
-    tag: 'archives/tag/:name/'
-    category: 'archives/category/:name/'
+# Archives
+collections:
+  archives:
+    output: true
+    permalink: /archives/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
