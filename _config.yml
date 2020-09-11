@@ -19,13 +19,26 @@
 # in the templates via {{ site.myvariable }}.
 
 title: foolish dev blog
-email: foolish1337@gmx.de
+author:
+  name: foolish314159
+  email: foolish1337@gmx.de
 description: >- # this means to ignore newlines until "baseurl:"
   I might post interesting stuff that comes up during development here... or not.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: foolish1337
-github_username:  foolish314159
+
+# Set this to a github repository to be used to host comments.
+github_comments_repository:  foolish314159/foolish314159.github.io
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    twitter: foolish1337
+    github: foolish314159
 
 # Build settings
 theme: minima
