@@ -3,7 +3,6 @@ layout: post
 title:  "Comments"
 date:   2020-09-11 18:10:00 +0200
 github_comments_issueid: "1"
-categories: blog
 ---
 
 Testing if I can get github comments to work.
